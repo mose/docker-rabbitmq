@@ -1,9 +1,7 @@
 Docker-rabbitmq
 ================
 
-Yet another Dockerfile for rabbitmq, compiling more recent version than what is provided by debian/ubuntu packages.
-
-Currently installs RabbitMQ v3.2.1
+Yet another Dockerfile for rabbitmq, downloading most recent stable deb package, currently 3.3.0.
 
 
 Copyright
