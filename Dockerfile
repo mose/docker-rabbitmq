@@ -14,7 +14,7 @@ RUN locale-gen en_US en_US.UTF-8
 RUN apt-get -qq update
 RUN apt-get -y -qq upgrade
 RUN apt-get install -y -qq curl lsb-release supervisor openssh-server cron rsyslog wget
-RUN apt-get install -y -qq erlang-nox logrotate esl-erlang
+RUN apt-get install -y -qq erlang-nox logrotate
 
 ENV RABBITMQ_VERSION 3.3.0
 ENV RABBITMQ_VERSION_MINOR 1
